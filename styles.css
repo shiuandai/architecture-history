@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+.container{
+    background-color: rgb(237, 236, 236);
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p:not(#text-div){
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(107, 107, 107);
+  
+}
+
+#img-div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+image{
+    display: block;
+    max-width: 500px;
+    height: auto;
+}
+
+#img-caption{
+    justify-content: left;
+    color: rgb(107, 107, 107);
+    font-size: 0.9em;
+}
+
+#text-div{
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#time-div{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    text-align: left;
+}
+
+h2{
+    font-size: 1em;
+}
+
+.bold,#foot{
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+li{
+    margin-bottom: 12px;
+}
+
+.content{
+    color: rgb(105, 104, 104);
+    font-size: 0.9em;
+}
+
+#quote{
+    display: block;
+    width: 650px;
+    margin: auto;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: left;
+}
